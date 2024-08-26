@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>    the output of subsequence number are given in console    </h1>
+</body>
+ <script>
+
+//  let string = "ABCBDAB";
+//  let string2 = "BDCAB";             // expected output BDAB
+
+//     for(let i=0; i<string.length; i++){
+//         for(let j=0; j<string2.length; j++){
+//              if(arr[i] == arr[j]){
+//                 console.log(arr[i],arr[j])
+//                 arr[i+1];
+//                 arr[j+1];
+//              }else{
+//                 arr[i]+1;
+//              }
+//              arr1 = [arr[i],arr[j]]
+//                 console.log(arr1)
+            
+             
+//              arr1= [arr[i]]
+//         }
+       
+//         }
+
+   
+    function longestSubsequense(name1, name2){
+        const arr = [];
+       for(let i=0 ; i<name1.length; i++){
+          arr[i] = [0];
+          
+       }
+       for(let j=0; j<name2.length; j++){
+         arr[j] = [0]
+       }
+
+
+       for(let i =1; i<name1.length; i++){
+        for(let j=1; j<name2.length; j++){
+            if(arr[i] != arr[j]){
+                arr[i+1]
+            }
+        }
+       }
+          
+
+    }
+
+    longestSubsequense("rtfdfx" , "sdfsf")
+
+
+ </script>
+</html>

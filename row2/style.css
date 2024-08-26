@@ -1,0 +1,81 @@
+.main > div{
+
+    width: 100%;
+    background-color: blue;
+    height: 20px;
+}
+.item1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.child{
+    width: 10%;
+    background-color: red;
+    height: 20px;
+}
+.child1{
+    width: 50%;
+    background-color: red;
+    height: 20px;
+}
+.child2{
+    width: 50%;
+    color: green;
+    height: 20px;
+}
+.newchild{
+    position: absolute;
+    margin-left: 45%;
+    align-items: center;
+
+}
+.item7{
+    display: flex;
+    height: 20px;
+    width: 100%;
+}
+.child11{
+    height: 100%;
+    width: 20%;
+    background-color: red;
+}
+.child12{
+    height: 100%;
+    width: 80%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subb{
+    width: 100%;
+    height: 30%;
+background-color: green;
+}
+.item8{
+    display: flex;
+}
+.green{
+    background-color: green;
+    height: 20px;
+    width: 8%;
+}
+.orange{
+    background-color: orange;
+    height: 20px;
+    width: 20%;
+}
+.item9{
+    display: flex;
+}
+.green1{
+    background-color: green;
+    height: 20px;
+    width: 3%;
+}
+.orange1{
+    background-color: orange;
+    height: 20px;
+    width: 20%;
+}
